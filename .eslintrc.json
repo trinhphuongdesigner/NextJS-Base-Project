@@ -32,6 +32,7 @@
     "linebreak-style": 0,
     "react/display-name": 1,
     "react/prop-types": "off", // React eslint error missing in props validation
+    "import/no-unresolved": "off",
     "consistent-return": "off",
     "react/react-in-jsx-scope": "off",
     "react/jsx-props-no-spreading": "off",
