@@ -16,10 +16,6 @@ class MyApp extends App {
     const { Component, pageProps, store } = this.props;
     return (
       <Container>
-        <link
-          rel="stylesheet"
-          href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.css"
-        />
         <Provider store={store}>
           <Component {...pageProps} />
         </Provider>
