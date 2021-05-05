@@ -4,6 +4,7 @@ import MoreStories from '../components/more-stories';
 import HeroPost from '../components/hero-post';
 import Intro from '../components/intro';
 import Layout from '../components/layout';
+import MarkedPoint from '../components/MarkedPoint';
 import { getAllPostsForHome } from '../lib/api';
 import { CMS_NAME } from '../constants';
 
@@ -21,7 +22,7 @@ export default function Index({ preview, allPosts }) {
         </Head>
         <Container>
           <Intro />
-          Post content here
+          {/* Post content here */}
           {/* {heroPost && (
             <HeroPost
               title={heroPost.title}
@@ -33,6 +34,7 @@ export default function Index({ preview, allPosts }) {
             />
           )}
           {morePosts.length > 0 && <MoreStories posts={morePosts} />} */}
+          <MarkedPoint />
         </Container>
       </Layout>
     </>
