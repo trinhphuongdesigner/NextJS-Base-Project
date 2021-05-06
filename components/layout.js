@@ -1,5 +1,5 @@
 import Alert from './alert';
-import Footer from './footer';
+import Footer from './app.footer';
 import Meta from './meta';
 
 export default function Layout({ preview, children }) {
